@@ -26,7 +26,7 @@ those functions are localized and don't interfere with outside
 functions and variables, unless specified otherwise
 '''
 
-#just fucking around
+#just messing around
 def duh():
     for i in range(1,10):
         x= i + 1
