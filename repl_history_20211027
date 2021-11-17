@@ -1,0 +1,1082 @@
+'hello world'
+4
+4 + 2
+True
+False
+false
+"hello's"
+'hello"s'
+'hello's'
+'hello\'s'
+"hello\"s"
+type(4)
+type(4.2)
+type(False)
+4 + 2
+4 - 2
+4 * 2
+4 / 3
+4 / 2
+4 // 3
+4 // 3.0
+4 % 2
+4 % 3
+10 % 2
+11 % 2
+'hello' + 4
+4 / 3
+'hello' * 3
+1.3 + 2
+1 + 2.3
+4//3
+4%3
+5%3
+divmod(5,3)
+'hello' + ' class'
+a=4
+b = 3.2
+id(a)
+id(b)
+a = a + b
+a
+id(a)
+bool(1)
+bool(199)
+bool(0)
+bool(-1)
+bool(5%2)
+5
+c = 4
+c
+c = '4'
+c
+c = "4"
+c
+d = 5.2
+d
+int(c)
+float(c)
+c
+c = float(c)
+c
+str(c)
+e = 'now1'
+int(e)
+e = '-122'
+int(e)
+int('123.223.23.22')
+a = [1, 2, 3, 4, 5]
+a
+b = (1, 2, 3, 4, 5)
+b
+a[0]
+a[1]
+a[4]
+a[5]
+a[-1]
+b[0]
+b[-1]
+b[5]
+id(a)
+a[0] = 6
+id(a)
+b[0] = 6
+a
+a[0] = 0
+a
+a.append(6)
+a
+a[0] = 1
+a
+dir(list)
+dir(tuple)
+dir(list)
+a.append(6)
+b
+b[-1]
+b[-1] = 6
+l = [1,2,3,[4,5,6],7,8,9]
+l[3]
+l[3][-1]
+'hello'[0]
+'hello' + ' world'
+a = 'hello'
+b = ' world'
+a + b
+a = a + b
+a
+a = a + b * 3
+a
+a = (a + b) * 3
+a
+first = 'Nick'
+last = 'Yost'
+last + ', ' + first
+'{}, {}'.format(last, first)
+'{}, {} ran {} miles.'.format(last,first,12)
+octets = ['127','0','0','1']
+'{}.{}.{}.{}'.format(octets[0],octets[1],octets[2],octets[3])
+'{:,}'.format(123456789)
+'{:.2}'.format(3.14159265359)
+'{:.2f}'.format(3.14159265359)
+'{}, {} ran {} miles.'.format(last,first,12,'whatver')
+'{}, {} ran {} miles.'.format(last,first)
+'{1}, {0} ran {2} miles.'.format(first,last,12)
+'{0}, {0} ran {2} miles.'.format(first,last,12)
+'hello world'.split(' ')
+'hello:world'.split(':')
+'hello-:-world'.split('-:-')
+'me@somewhere.com'.split('@','.')
+'me@somewhere.com'.split('@')
+'me@somewhere.com'.split('.')
+'me@somewhere.com'.split('@.')
+quit()
+passwd = 'root:x:0:0:root:/root:/bin/bash'
+passwd.split(':')[-1]
+default_shell = passwd.split(':')[-1]
+default_shell
+root = passwd.split(':')
+root
+root.join(':')
+':'.join(root)
+root[-1] = '/bin/sh'
+root
+':'.join(root)
+octets
+dir()
+octets = ['127','0','0','1']
+'.'.join(octets)
+parts = ['me','somewhere','org']
+'{}@{}.{}'.format(parts[0],parts[1],parts[2])
+email = 'me@somewhere.org'
+result = ['me','somewhere','org']
+email.split('@')
+step1 = email.split('@')
+step1
+step2 = step1[1].split('.')
+step1
+step2
+[step1[0],step2[0],step2[1]]
+[step1[0]] + step2
+email
+step1 = email.split('@')
+step1
+'.'.join(step1)
+step2 = '.'.join(step1)
+step2
+step2.split('.')
+email
+email.split('@')
+'.'.join(email.split('@'))
+'.'.join(email.split('@')).split('.')
+email.replace('@','.')
+email.replace('@','.').split('.')
+s = 'hello'
+s[0] = 'j'
+list(s)
+sl = list(s)
+sl[0] = 'j'
+sl
+str(sl)
+''.join(str(sl))
+''.join(sl)
+s
+s = ''.join(sl)
+a = 'hello'
+b = 'world'
+a + ' ' + b
+print(a + ' ' + b)
+print(print('hello'))
+l = []
+l.append(3)
+a = l.append(4)
+a
+type(a)
+'hello'.capitalize()
+a = 'hello'.capitalize()
+a
+'hello'.capitalize()
+print('hello'.capitalize())
+input()
+hello world
+a = input()
+hello world
+a
+a = input('Enter a number: ')
+12
+type(a)
+a
+a = int(a) + 1
+a
+a = str(int(a) + 1)
+a
+a = int(input('Enter a number: '))
+no
+quit()
+p = 1
+(p + 1) % 2
+((p + 1) % 2) + 1
+(p + 1)
+p += 1
+p
+((p + 1) % 3) + 1
+quit()
+1 ^ 2
+3 ^ 2
+1 ^ 1
+a,b = 1,2
+a ^= b
+b ^= a
+a ^= b
+a
+b
+a = 1
+a = 1 - a
+a
+a = 1
+a = 3 - a
+a
+a = 3 - a
+a
+quit()
+a = 1
+a
+a = 3 - a
+a
+a = 3 - a
+a
+quit()
+email = 'me@somewhere.com'
+email.split('@')
+step1 = email.split('@')
+'.'.join(step1)
+sentence = 'the quick brown fox jumps'
+sentence.split(' ')
+sentence.split(' ').join('+')
+'+'.join(sentence.split(' '))
+sentence
+sentence.replace('@','.')
+sentence.replace(' ','+')
+quit()
+range(10)
+range(0,10)
+r = range(10)
+i = iter(r)
+next(i)
+for item in range(10):
+	print(item)
+list(range(10))
+list(range(99999999999999999999999999999999999999999999))
+for item in range(9999999999999999999999):
+	print(item)
+list(range(0,10,2))
+list(range(10,0,1))
+list(range(10,0,-1))
+list(range(10,-1,-1))
+quit()
+l = [1,2,3,4,5,6]
+#l[start:stop:step]
+l[:]
+l2 = l
+l2 is l
+l2 = l[:]
+l2 is l
+l[1:]
+l[0:5]
+l[0:-1]
+l[:-1]
+l[1:-1]
+l[::-1]
+l = [3,5,1,3,2]
+l[::-1]
+s = 'hello'
+s[1::-1]
+s[1:-1]
+s
+sl = list(s)
+sl
+sl[0] = 'j'
+sl
+''.join(sle)
+''.join(sl)
+s
+'j' + s[1:]
+l
+l[:-3]
+l[3:]
+l[2:]
+l[-3:]
+n = 4
+def last_n(l,n):
+	return l[-n:]
+l
+last_n(l,4)
+last_n(l,3)
+last_n(l,2)
+quit()
+ord('a')
+chr(97)
+chr(ord('a'))
+ord(chr(97))
+quit()
+[item**2 for item in range(0,101) if item % 2 == 0]
+[1 for _ in range(8)]
+[print('hello') for _ in range(3)]
+fp = open('test.txt')
+fp.read()
+fp.close()
+fp = open('test.txt')
+fp.readlines()
+fp.close()
+fp = open('test.txt')
+fp.readline()
+fp.close()
+fp = open('test.txt')
+line = fp.readline()
+while line != '':
+	print(line,end='')
+	line = fp.readline()
+fp.close()
+fp = open('test.txt')
+for line in fp:
+	print(line,end='')
+fp.close
+fp.closed
+fp.close()
+with open('test.txt') as fp:
+	for line in fp:
+		print(line,end='')
+fp.closed
+quit()
+with open('test.txt') as fp:
+	char_count = 0
+	line = fp.readline()
+	while line != '':
+		char_count += len(line)
+		line = fp.readline()
+char_count
+with open('test.txt') as fp:
+	char_count2 = len(fp.read())
+char_count2
+with open('test.txt') as fp:
+	l = len(fp.readlines())
+l
+quit()
+with open('test.txt') as fp:
+	fp.read().count('\n')
+with open('test.txt') as fp:
+	newlines = fp.read().count('\n')
+newlines
+with open('test2.txt','w') as fp:
+	fp.write('something')
+	fp.write('something else')
+quit()
+with open('test2.txt','w'):
+	pass
+quit()
+with open('test2.txt','w') as fp:
+	fp.write('something\n')
+	fp.write('something else\n')
+quit()
+data = ['something\n','something more\n']
+with open('test2.txt','w') as fp:
+	fp.writelines(data)
+quit()
+dir()
+myvar = 4
+dir()
+import random
+dir()
+dir(random)
+random.randint(0,100)
+random = 4
+random.randint(0,100)
+del random
+random.randint(0,100)
+import random
+random.randint(0,100)
+quit()
+dir()
+from random import randint
+dir()
+randint(0,100)
+quit()
+dir()
+from random import *
+dir()
+quit()
+import random as r
+dir()
+r.randint(0,100)
+quit()
+import utility
+2
+5
+dir()
+utility.multiply(2,3)
+quit()
+import utility
+dir(utility)
+quit()
+import utility
+utility.multiply(2,3)
+quit()
+l = ['hello','world','goodbye','cruel','world']
+list(enumerate(l))
+l2 = ['1','2','3','4','5']
+list(map(int,l2))
+list(zip(l,l2))
+isinstance(l,list)
+sum(map(int,l2))
+l
+'cruel' in l
+for item in l:
+	if item == 'cruel':
+isin = False
+for item in l:
+	if item == 'cruel':
+		isin = True
+isin
+s = {1,2,3,4,5}
+type(s)
+s = {1,1,2,3,3}
+s
+l = [1,1,2,2,3,3]
+l = list(set(l))
+l
+s = {'hello',1,4.5}
+s
+'hello' in s
+s
+s.add([1,2,3])
+s.add((1,2,3))
+s
+s[0]
+s = {1,2,3,4,5}
+t = {4,5,6,7,8}
+s.difference(t)
+s.union(t)
+s.intersection(t)
+d = { 'key0':'value0', 'key1':'value1' }
+d['key0']
+t = ()
+type(t)
+l = []
+a = {}
+type(a)
+s = set()
+d
+d['key0'] = 'newvalue'
+d
+d['key2']
+d['key2'] = 'value2'
+d
+for thing in d:
+	print(thing)
+for thing in d.values():
+	print(thing)
+for keyvalue in d.items():
+	print(keyvalue)
+a,b = 1,2
+a
+b
+a,b = [3,4]
+a
+b
+a,b = (5,6)
+a
+b
+d
+for k, v in d.items():
+	print(k,v)
+d
+keys = d.keys()
+type(keys)
+keys[0]
+keys
+for key in keys:
+	print(key)
+keys = list(d.keys())
+type(keys)
+l = [3,1,5,4,2]
+l.sort()
+l
+a = l.sort()
+a
+type(a)
+l = [3,1,5,4,2]
+sorted(l)
+a = sorted(l)
+a
+l
+'a' < 3
+l = ['a',3,5]
+sorted(l)
+min(l)
+l = [3,1,5,4,2]
+min(l)
+max(l)
+l = [(5,2),(9,1),(1,6)]
+sorted(l)
+sorted(l,reverse=True)
+quit())
+quit()
+5 > None
+quit()
+l ['a','c','b']
+l = ['a','c','b']
+sorted(l)
+'a' < 'b'
+'b' < 'c'
+'b' < 'ccccccccccccc'
+l = ['aaaaaaaaaaa','c','bbbbbb']
+sorted(l)
+sorted(l,key=len)
+quit()
+t = [(9,1),(5,3),(10,0)]
+sorted(t)
+def keyfunc(t):
+	return t[1]
+def keyfunc(x):
+	return x[1]
+t
+sorted(t,key=keyfunc)
+def keyfunc(x):
+	return x[2]
+sorted(t,key=keyfunc)
+dir(4)
+(4).bit_length()
+(256).bit_length()
+l
+l = [256,8,3,65535]
+sorted(l)
+sorted(l,key=bit_length)
+sorted(l,key=int.bit_length)
+def keyfunc(t):
+	return t[1]
+l = [(5,3),(1,6),(3,0)]
+sorted(l,key=keyfunc)
+y = lambda t: t[1]
+y((1,2))
+sorted(l,key=lambda t: t[1])
+list(map(lambda t: (t[0]**2,t[1]**2),sorted(l,key=lambda t: t[1]))
+)
+def multiply(a,b):
+	return a*b
+multiply(4,5)
+multiply(a=3,b=5)
+multiply(b=5,a=3)
+multiply(4,a=5)
+multiply(a=3,5)
+def multiply(a=4,b=3):
+	return a*b
+multiply()
+def multiply(a,b=3):
+	return a*b
+multiply(4)
+multiply(4,2)
+def mysum(*args):
+	return sum(args)
+mysum()
+mysum(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1)
+def mysum(a,*args):
+	return a + sum(args)
+mysum()
+mysum(1)
+mysum(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1)
+def mysum(**kwargs):
+	for k,v in kwargs.items():
+		print(k,v)
+mysum(somekey=1,someotherkey=2)
+def mysum(a,**kwargs):
+	print(a)
+	for k,v in kwargs.items():
+		print(k,v)
+mysum(4)
+mysum(4,somekey=2,someotherkey=5)
+mysum(a=4,somekey=2,someotherkey=5)
+mysum(b=4,somekey=2,someotherkey=5)
+def mysum(*a,**kwargs):
+	return sum(a) + sum(kwargs.values())
+mysum()
+mysum(1,1,1,1,1,1,1)
+mysum(1,1,1,1,1,1,1,somekey=1,someotherkey=1)
+def mysum(a,b,*args,**kwargs):
+	return a + b + sum(args) + sum(kwargs.values())
+mysum()
+mysum(1)
+mysum(1,1,1,1,1,1,1,1,1)
+mysum(1,1,somekey=1,someotherkey=1)
+clear
+from itertools import product
+for i in product('0123456789',repeat=2):
+	print(i)
+from itertools import cycle,zip_longest
+permchar = cycle('rwx')
+mode = 511
+for shift in range(8,-1,-1):
+list(zip(range(8,-1,-1),cycle('rwx')))
+quit()
+1024*683
+quit()
+import random
+l = [1,2,3,4,5]
+sorted(l,key=lambda _: random.randint(0,100))
+quit()
+bin(16)
+hex(16)
+oct(16)
+0b10000
+0x10
+0x10 == 0b10000
+int('0b10000')
+int('10000')
+int('10000',2)
+int('0x10',16)
+int('0x10')
+int('0x10',16)
+int('20')
+int('20',8)
+type(0b10000)
+type(hex(16))
+bytes([1,2,3])
+bytes([1,2,3,10])
+bytes([1,2,3,10,97,5])
+bytes([1,2,3,97,5])
+b = b'hello'
+ord('h')
+ord('e')
+ord('l')
+ord('o')
+b[0]
+b[1]
+b[2]
+b[3]
+b[4]
+b[5]
+b'\x01abcd'
+'hello' == b'hello'
+'hello'.encode('ascii')
+'hello'.encode('ut8')
+'hello'.encode('utf8')
+'hello\x80'.encode('ascii')
+0x80
+'hello\x80'.encode('utf8')
+len('hello\x80'.encode('utf8'))
+b = 'hello\x80'.encode('utf8')
+b
+b.decode('ascii')
+b.decode('utf8')
+bytearray(b.decode('utf8'))
+bytearray(b)
+ba = bytearray(b)
+ba.append(240)
+ba
+ba[0]
+ba[0] = b'j'
+ba[0] = ord('j')
+ba
+n = 4
+0b1001 | 0b0110 # 0b1111
+bin(0b1001 | 0b0110) # 0b1111
+bin(0b1001 | 0b1000) # 0b1001
+result = 0
+result = result | 0x1
+result |= 0x1
+bin(0b1000 | 0b0001)
+bin(0b1000 | 0b0011)
+bin(0b1001 & 0b1110) # 0b1000
+bin(0b11001 & 0b0000000000000000000000000000001110)
+0b11001
+0b11001 & 0b0000000000000000000000000000001110
+0b11001 & 0b0000000000000000000000000000011110
+0b11001 & ~1
+99999999 & ~1
+0b11001 & 0b00001
+0b11000 & 0b00001
+0b0001 << 1 # 0b00010
+0b0001 << 2 # 0b00010
+0b0001 << 9999999
+0b0001 << 999
+0b0001 >> 1
+0b1000 >> 1
+import random
+r = random.randint(0,100)
+r
+bin(21)
+format(21,'08b')
+(r >> 7) & 1
+(r >> 6) & 1
+(r >> 5) & 1
+(r >> 4) & 1
+(r >> 3) & 1
+(r >> 2) & 1
+(r >> 1) & 1
+(r >> 0) & 1
+for shift in range(7,-1,-1):
+	print((r>>shift)&1)
+dir(21)
+(21).bit_length()
+for shift in range(r.bit_length()-1,-1,-1):
+	print((r>>shift)&1)
+bin(21)
+quit()
+0o777 == 511
+0o511
+quit()
+bin(0o777)
+bin(511)
+quit()
+from stat import filemode
+filemode(511)
+filemode(511)[1:]
+l = [1,2,3]
+l.__contains__(2)
+l.__contains__(4)
+cls = type('TicTacToe',(object,),{ '__init__': lambda self: self.player =  1})
+cls = type('TicTacToe',(object,), {})
+a = TicTacToe
+a = cls()
+type(a)
+def __init__(self):
+	self.player=1
+TicTacToe = type('TicTacToe',(),{'__init__':__init__})
+game = TicTacToe()
+dir(game)
+game.player
+TicTacToe = type('TicTacToe',(),{'__init__':(lambda self: self.player=1)})
+dir(4)
+dir(4.5)
+dir('4.5')
+import ast
+ast.dump(ast.parse('-456.39',mode='eval'))
+ast.dump(ast.parse('-4.56.39',mode='eval'))
+ast.dump(ast.parse('"-4.56.39"',mode='eval'))
+from numbers import Number
+isinstance(-34.5,Number)
+isinstance(-345,Number)
+isinstance(+345,Number)
+isinstance(-3.4.5,Number)
+isinstance("-3.4.5",Number)
+isinstance("-3.45",Number)
+num = "-3.4.5"
+compile(num,'','eval')
+import io
+f = io.StringIO('-3.5.6')
+import tokenize
+tokens = tokenize.generate_tokens(f.readline)
+tokens
+for token in tokens:
+	print(token)
+f = io.StringIO('-3.56')
+tokens = tokenize.generate_tokens(f.readline)
+for token in tokens:
+	print(token)
+f = io.StringIO('--3.56')
+tokens = tokenize.generate_tokens(f.readline)
+for token in tokens:
+	print(toke)
+for token in tokens:
+	print(token)
+--3.4
+f = io.StringIO('-3.56a')
+tokens = tokenize.generate_tokens(f.readline)
+for token in tokens:
+	print(token)
+f = io.StringIO('-3.5-6a')
+tokens = tokenize.generate_tokens(f.readline)
+for token in tokens:
+	print(token)
+quit()
+l = [3,5,1,2,4]
+s = sorted(l)
+s
+quit()
+class MyType:
+	data = 'hello'
+inst = MyType()
+inst.data
+inst.whatever = 4
+quit()
+import webbrowser
+chrome = webbrowser.get('chrome')
+chrome = webbrowser.get()
+chrome = webbrowser.get('firefox')
+chrome = webbrowser.get('chrome')
+chrome = webbrowser.get('google-chrome')
+chrome.open_new('www.google.com')
+quit()
+import echo
+dir(echo)
+echo.udp_echo_client()
+quit()
+import echo
+echo.udp_echo_client()
+quit()
+import echo
+echo.udp_echo_client()
+quit()
+import echo
+echo.udp_echo_client(b'print("test")')
+quit()
+import echo
+echo.udp_echo_client(b'print("hello")')
+quit()
+import echo
+echo.tcp_echo_client()
+quit()
+bin(1000000)
+quit9)
+quit()
+l = []
+l.append([1,2,3])
+l
+l = []
+l.extend([1,2,3])
+l
+quit()
+import echo
+echo.tcp_echo_client()
+quit()
+import echo
+echo.tcp_echo_client()
+quit()
+import echo
+echo.tcp_echo_client()
+quit()
+import echo
+echo.tcp_echo_client()
+quit()
+def gen():
+quit()
+def breakif(iterable,predicate):
+import itertools
+quit()
+class Whatever:
+	pass
+a = Whatever()
+print(a)
+str(a)
+class Whatever:
+	def __str__(self):
+		return 'blah blah blah'
+a = Whatever()
+print(a)
+import os
+for dirpath,dirnames,filenames in os.walk('.'):
+	for filename in filenames:
+		print(filename)
+quit9)
+quit()
+import os
+for dirpath,dirnames,filenames in os.walk('.'):
+	for filename in filenames:
+		print(filename)
+quit()
+l = ['1','2','3']
+str(l)
+''.join(l)
+'123'.split()
+list('123')
+for char in '123':
+	print(char)
+2**4
+pow(2,4)
+l
+l.append('4')
+a = l.append('5')
+'hello'.capitalize()
+a = 'hello'.capitalize()
+print('hello'.capitalize())
+'hello7'.isdigit()
+'7'.isdigit()
+strng = 'he9l7o'
+digits = []
+for char in strng:
+	if char.isdigit():
+		digits.append(char)
+digits
+alpha = []
+for char in strng:
+	if char.isalpha():
+		alpha.append(char)
+alpha
+alpha.insert(2,'l')
+alpha
+''.join(alpha)
+ip = '192.168.0.10'
+ip.split('.')
+octets = ip.split('.')
+if int(octet[0]) > 191:
+	print('yes')
+if int(octets[0]) > 191:
+	print('yes')
+d = { 'key0': 'value0', 'key1':'value1' }
+for item d:
+d
+for item in d:
+	print(item)
+for item in d.values():
+	print(item)
+for item in d.items():
+	print(item)
+for key,value in d.items():
+	print(key,value)
+for value,key in d.items():
+for item in range(10):
+	print(item)
+list(range(10))
+list(range(2,10))
+list(range(2,10,2))
+list(range(10,0))
+list(range(10,0,-1))
+list(range(10,-1,-1))
+'hello'[:]
+s = 'hello'
+s2 = s[:]
+s is s2
+l = [1,2,3]
+l2 = l[:]
+l is l2
+l = [1,2,3,4,5,6,7]
+l[1:-1]
+l[-3:]
+list(reverse(l))
+list(reversed(l))
+l[::-1]
+l
+l[::-1]
+l
+sorted(l,reverse=True)
+l = [3,5,2,1,4]
+sorted(l(
+sorted(l)
+list(reversed(l))
+l
+l = []
+for char in 'hel9o7':
+	if char.isalpha():
+		l.append(char)
+[char for char in 'helo9o8' if char.isalpha()]
+a = [char for char in 'helo9o8' if char.isalpha()]
+d
+for item in d.items():
+	print(item[0],item[1])
+def somefunc(filename):
+	with open('filename') as fp:
+		pass
+def somefunc(filename):
+	with open(filename) as fp:
+		pass
+with open('test.txt','r') as outer:
+	with open('test2.txt','w') as inner:
+with open('test.txt') as src, open('test2.txt','w') as dst:
+quit()
+with open('test.txt') as first, open('test2.txt') as second:
+	for line0 in first:
+		line1 = second.readline()
+l
+l = [5,3,1,4,2]
+for t in enumerate(l):
+	print(t)
+for index,value in enumerate(l):
+	print(index,value)
+l = ['1','2','3']
+list(map(int,l))
+l2 = ['5,','6','7']
+print('hello','world',end='\n\n')
+def func(*args):
+	for item in args:
+		print(item)
+func(1,2,3)
+def func(**kwargs):
+	for key,value in kwargs.items():
+def sumall(**kwargs):
+	return sum(kwargs.values())
+sumall(a=1,b=2,c=3)
+def sumupper(**kwargs):
+	s = 0
+	for key,value in kwargs.items():
+		if key.isupper():
+			s += value
+	return s
+sumupper(a=1,b=2,C=3,D=4,e=1)
+l = [3,5,2,4,1]
+sorted(l)
+l
+newl = sorted(l)
+l.sort()
+l
+t = (3,5,4,1,2)
+sorted(t)
+t.sort()
+s = ['z','aaaaaaaa','bbbbb']
+sorted(s)
+sorted(s,key=len)
+sorted(s,key=len,reverse=True)
+s = ['Nick Yost','Jason Enochs','Jeff Frazier']
+def keyfunc(s):
+	return s.split()[-1]
+sorted(s,key=keyfunc)
+sorted(s,key=lambda s: s.split()[-1])
+def keyfunc(s):
+	return 1
+sorted(s,key=keyfunc)
+s
+'hello'.decode('ascii')
+'hello'.encode('ascii')
+bytes([97])
+bytes([254])
+bytes([254,97,253])
+bin(97)
+0b1100001
+hex(97)
+0x61
+oct(97)
+0o141
+int('1100001')
+int('1100001',2)
+int('0x61',16)
+int('0o141',8)
+result = 0
+result |= 0b1
+bin(result)
+result
+result |= 0b10
+0b11
+result
+bin(result)
+result &= 0b10
+result
+bin(result)
+result = 3
+result &= ~0b01
+result
+result & 0b01 == 0b01
+result = 3
+result & 1 == 1
+result & 0b10 == 2
+result = 1
+result & 0b10 == 2
+class Computer:
+	def __init__(self):
+		self.whatever = 0
+a = Computer()
+type(a)
+class Computer:
+	def __int__(self):
+		self.whatever = 0
+	def __str__(self):
+		return str(self.whatever)
+a = Computer()
+str(a)
+def file_exists(filename):
+	try:
+		with open(filename):
+			pass
+	except FileNotFoundError:
+		return False
+	return True
+file_exists('nope.txt')
+file_exists('test.txt')
+quit()
